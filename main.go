@@ -88,7 +88,7 @@ func main() {
 				dataChan <- i
 			}
 		}()
-
+		fmt.Print(23)
 		return dataChan
 	}
 
