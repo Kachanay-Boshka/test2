@@ -44,7 +44,7 @@ func Demultiplexer(inputChan chan int, count int) []chan int {
 			}
 		}
 	}()
-
+	fmt.Print("asaas")
 	return outputChannels
 }
 
